@@ -15,7 +15,7 @@ The benchmark is simple; two versions are made using virtually identical feature
 ## Details
 
 #### The server
-Holds a set of 5 shares with their respective value. If a share is bought, its value increases by 0.1%. Likewise if a share is sold, its value decreases by 0.1%. Every share is its own "topic" (or "room"); when a share value changes its value is published to all subscribers.
+Holds a set of 5 shares with their respective value. If a share is bought, its value increases by 0.1%. Likewise if a share is sold, its value decreases by 0.1%. Every share is its own topic (or so called "room"); when a share value changes its value is published to all subscribers of that topic.
 
 #### The client (passive watchers and active traders)
 Establishes 500 connections, of which 50 are active traders and 450 are passive watchers. Every connection is interested in only one share, and will only subscribe to, and buy/sell that one share.
