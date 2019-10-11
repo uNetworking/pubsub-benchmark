@@ -10,6 +10,8 @@ The benchmark is simple; two version are made with virtually identical features 
 
 </div>
 
+*Note: uWebSockets.js cannot be fully stressed with the WebSocket client "websockets/ws" in use here, so results reported are not ideal. However the difference is grand in any case, so let's not get caught up in details.*
+
 ## Details
 
 #### The server
