@@ -2,7 +2,7 @@
 
 This repo implements a simplified stock exchange service using pub/sub support found in Socket.IO and uWebSockets.js. The purpose is to showcase performance differences in the two projects given a real-world example under stressful conditions.
 
-The benchmark is simple; two version are made with virtually identical features and number of lines of code. One made with uWebSockets.js, one made with Socket.IO. Source code is available under respective folder.
+The benchmark is simple; two versions are made with virtually identical features and number of lines of code. One made with uWebSockets.js, one made with Socket.IO. Source code is available under respective folder. Feel free to PR other implementations.
 
 <div align="center">
 
