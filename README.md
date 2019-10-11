@@ -4,7 +4,11 @@ This repo implements a simplified stock exchange service using pub/sub support f
 
 The benchmark is simple; two version are made with virtually identical features and number of lines of code. One made with uWebSockets.js, one made with Socket.IO. Source code is available under respective folder.
 
-![](TransactionsPerSecond.png)
+<center>
+
+<img src="TransactionsPerSecond.png"/>
+
+<center>
 
 ## Details
 
